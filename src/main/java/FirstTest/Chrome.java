@@ -12,6 +12,7 @@ public class Chrome {
         WebDriver driver = new ChromeDriver();
         driver.get("http://skillupautomation.com");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        System.out.println("test");
         driver.manage().window().maximize();
 
     }
